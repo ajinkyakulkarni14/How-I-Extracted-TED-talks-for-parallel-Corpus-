@@ -6,7 +6,7 @@ TED Talks are videos that present a great idea in 18 minutes or less. They’re 
 
 Subsequently, Within few mins of reading documentation on urllib, Beautifulsoup and page source of TED.com. As a enthusisst in corpus lingusitics, I was able to appreciate significance of Multilingual parallel corpus for 109 world languages extracted from TED.com which is powered by open source Opentranslation project. In this article I am explaining the detailed flow of creation of parallel corpus from interactive transcripts of TED talks.
 
-Step 1. Enlisting the TED talk names
+#Step 1. Enlisting the TED talk names
 
 TED.com is static website, so talks link location is static and can be acessed if we have prior information of talks details which can be derived through Beautiful soup and urllib library in python as given below
 
@@ -16,7 +16,7 @@ Thus, reference names of all TED talks is stored in all_talk_names as dictionary
 ![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/3.png)
 
 -----------------------------------------------------------------------------------------
-Step 2. Extracting translations of TED talks and appending the data to python pandas dataframe work to save in .csv format
+#Step 2. Extracting translations of TED talks and appending the data to python pandas dataframe work to save in .csv format
 
 ![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/4.png)
 Text data of talks consisted of time frames, translated text of available language and language code. So to maintain this hierarchy we have used pandas DataFrame to store collection of dictionaries containing aligned text and time frames with other languages which is saved in .csv file format. For this it required more than 48 hrs, extracting 2100+ TED talks of around 800MB text data.
