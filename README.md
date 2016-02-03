@@ -14,7 +14,7 @@ Step 1. Enlisting the TED talk names
 
 TED.com is static website, so talks link location is static and can be acessed if we have prior information of talks details which can be derived through Beautiful soup and urllib library in python as given below
 
-[!1][https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/1.png]
+![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/1.png)
 
 
 
