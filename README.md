@@ -16,9 +16,12 @@ Thus, reference names of all TED talks is stored in all_talk_names as dictionary
 ![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/3.png)
 
 -----------------------------------------------------------------------------------------
-#Step 2. Extracting translations of TED talks and appending the data to python pandas dataframe work to save in .csv format
+#Step 2. Extracting translations of TED talks data
 
 ![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/4.png)
 Text data of talks consisted of time frames, translated text of available language and language code. So to maintain this hierarchy we have used pandas DataFrame to store collection of dictionaries containing aligned text and time frames with other languages which is saved in .csv file format. For this it required more than 48 hrs, extracting 2100+ TED talks of around 800MB text data.
+![alt Step1](https://github.com/ajinkyakulkarni14/How-I-Extracted-TED-talks-for-parallel-Corpus-/blob/master/Img/5.png)
+
+------------------------------------------------------------------------------------------
 
 
