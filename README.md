@@ -1,6 +1,6 @@
 # Multilingual TED parallel Corpus: How I Extracted TED talks for parallel Corpus?
 ----------------------------------------------------------------------------------------
-Recently One of my lab mate was working on web scraping with BeautifulSoup for static web site and other was listening to TED talks with interactive transcripts in regional languages. Afterwards It struck to my mind what if I crawled the TED talks to create multilingual Corpus ?
+Recently One of my lab friend was working on web scraping with BeautifulSoup for static web site and other was listening to TED talks with interactive transcripts in regional languages. Afterwards It struck to my mind what if I crawled the TED talks to create multilingual Corpus ?
 
 TED Talks are videos that present a great idea in 18 minutes or less. They’re filmed at flagship TED conferences, independent TEDx events, and other special TED programs. Their goal is to share Ideas Worth Spreading — in fields like science, technology, business, culture, art and design — around the world. The Open Translation Project is a global volunteer effort to subtitle TED Talks, and enable the inspiring ideas in them to crisscross languages and borders.
 
